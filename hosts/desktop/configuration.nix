@@ -1,6 +1,5 @@
 # ============================================================
 # hosts/desktop/configuration.nix
-# Desktop host entry point — imported by the flake.
 # ============================================================
 
 { config, pkgs, inputs, ... }:
@@ -13,6 +12,7 @@
     ../../modules/apps.nix         # GUI & CLI applications
     ../../modules/shell.nix        # zsh, aliases, environment
     ../../modules/git.nix          # git + GitHub tooling
+    ../../modules/development.nix
     # NOTE: ../../home/default.nix is no longer imported here.
     # The flake passes it as a NixOS module directly, which is the
     # correct way to wire home-manager when using flakes.
