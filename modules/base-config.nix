@@ -1,6 +1,5 @@
 # ============================================================
 # modules/base-config.nix
-# Shared settings that apply to ALL machines (desktop + notebook).
 # ============================================================
 
 { config, pkgs, ... }:

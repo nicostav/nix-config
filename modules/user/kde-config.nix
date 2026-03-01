@@ -18,7 +18,7 @@
       output.DP-2.rotation.none \
       output.DP-1.enable \
       output.DP-1.mode.2560x1440@75 \
-      output.DP-1.position.0,0 \
+      output.DP-1.position.0,-600 \
       output.DP-1.rotation.left
   '';
 
